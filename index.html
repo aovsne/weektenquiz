@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tibetquiz</title>
+	<link rel="shortcut icon" href="img/kundun.jpg">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster+Two|Yatra+One" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<div class="one col-xs-5">
+		<h1 class="head">TIBET QUIZ</h1>
+		<p id="question0">Is Tibet an independent country currently?</p>
+		<input class="input" type="text" placeholder="Answer here" id="answer0">
+		<p id="question1">Is HH the Dalai Lama a spritual leader of Tibet?</p>
+		<input class="input" type="text" placeholder="Answer here" id="answer1">
+		<p id="question2">What year H.H the Dalai Lama born?</p>
+		<input class="input" type="text" placeholder="Answer here" id="answer2">
+		<p id="question3">Which country did he escape to?</p>
+		<input class="input" class="input" type="text" placeholder="Answer here" id="answer3">
+		<p id="question4">What language do tibetan speak?</p>
+		<input class="input" type="text" placeholder="Answer here" id="answer4">
+		<p id="question5">What is Tibet's national animal?</p>
+		<input class="input" type="text" placeholder="Answer here" id="answer5">
+		<p id="question6">Is panda originally from Tibet?</p>
+		<input class="input" type="text" placeholder="Answer here" id="answer6"><br>
+		<button class="btn btn-primary" type="button" onclick="getAnswer()">ANSWER</button>
+	</div>
+	<div class="col-xs-4">
+		<h1 class="correct">CORRECT: <span id="correct"></span></h1>
+		<h1 class="incorrect">INCORRECT: <span id="incorrect"></span></h1>
+	</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

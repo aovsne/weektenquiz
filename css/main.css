@@ -1,0 +1,54 @@
+body{
+	background-image:url(../img/kundun.jpg);
+	background-size:cover;
+	
+}
+h1.head{
+	font-family: 'Lobster Two', cursive;
+	font-size:70px;
+	color:rgba(252,223,210,1);
+}
+
+div.one{
+	text-align: center
+}
+
+p{
+	font-family: 'Yatra One', cursive;
+	font-size:20px;
+	margin:10px;
+	color:rgba(252,223,210,1);
+}
+input.input{
+	width:100%;
+	border:none;
+	padding:5px 20px;
+	border-radius:5px;
+	font-size:16px;
+	color:black;
+	font-family: 'Yatra One', cursive;
+
+}
+button.btn{
+	margin-top:20px;
+	padding:10px 30px;
+
+}
+h1.correct{
+	font-family: 'Lobster Two', cursive;
+	display:none;
+	color:green;
+	margin-top:45%;
+}
+h1.incorrect{
+	font-family: 'Lobster Two', cursive;
+	color:red;
+	display:none;
+}
+.right{
+	color:green;
+}
+.wrong{
+	color:red;
+}
+

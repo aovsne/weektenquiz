@@ -21,7 +21,16 @@ answerArray = [
 		answer: 'yes',
 	},
 ]
+for(i = 0; i < answerArray.length; i++)
 
+document.getElementById('answer' + [i]).addEventListener('keypress', enterKey)
+function enterKey(e){
+	if(e.keyCode == 13){
+		getAnswer()
+		
+
+	}
+}
 
 function getAnswer(){
 	var correct = 0
